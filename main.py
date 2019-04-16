@@ -22,7 +22,8 @@ argparser.add_argument("--barcodes_file", type=str, default="barcodes.tsv" )
 
 args = argparser.parse_args()
 
-
+# Я хочу, нет я хочу, туфли Джими-Чу
+# И на Бали
 
 matrix_dir = args.data_dir
 mat = scipy.io.mmread(os.path.join(matrix_dir, args.matrix_file))
